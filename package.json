@@ -1,0 +1,15 @@
+{
+  "author": "joaomrsouza",
+  "dependencies": {
+    "jimp": "^0.22.12"
+  },
+  "description": "Create a spritesheet from frames",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "spritesheeter",
+  "scripts": {
+    "run": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

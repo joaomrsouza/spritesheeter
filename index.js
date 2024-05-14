@@ -90,7 +90,9 @@ async function main() {
 
   try {
     const images = await readImagesFromFolder(folderPath);
-    const name = images[0].split("_")[0];
+    const slugArray = images[0].split("_");
+    slugArray.pop();
+    const name = slugArray.join("_");
 
     await createCollage(
       images.map((image) => `${folderPath}/${image}`),
